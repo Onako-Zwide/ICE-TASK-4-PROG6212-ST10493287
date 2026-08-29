@@ -18,3 +18,12 @@ Calculate the total claim amount automatically.
 Export claims to claim_summary.txt.
 Read the exported text file and display its contents.
 Count claim records using a direct ADO.NET SELECT COUNT(*) query.
+
+# Validation
+
+The application validates:
+
+Hours worked must be between 1 and 160.
+Hourly rate must be greater than zero.
+Claim IDs must be valid positive numbers.
+
